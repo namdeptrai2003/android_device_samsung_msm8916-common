@@ -101,7 +101,6 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.lineage
 #BOARD_USES_CYANOGEN_HARDWARE := true
 JAVA_SOURCE_OVERLAYS += \
 	org.lineageos.hardware|hardware/samsung/lineagehw|**/*.java \
-	org.lineageos.hardware|$(LOCAL_PATH)/lineagehw|**/*.java
 
 # Display
 MAX_EGL_CACHE_KEY_SIZE := 12*1024
